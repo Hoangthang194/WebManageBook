@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj": {}
+    "D:\\ProjectT4\\WebManageBook\\Web.ApplicationService\\Web.ApplicationService.csproj": {}
   },
   "projects": {
-    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj": {
+    "D:\\ProjectT4\\WebManageBook\\Web.ApplicationService\\Web.ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj",
+        "projectUniqueName": "D:\\ProjectT4\\WebManageBook\\Web.ApplicationService\\Web.ApplicationService.csproj",
         "projectName": "Web.ApplicationService",
-        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\obj\\",
+        "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.ApplicationService\\Web.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\QuangThang\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectT4\\WebManageBook\\Web.ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuangThang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,21 +22,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj": {
-                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj"
+              "D:\\ProjectT4\\WebManageBook\\Web.Core\\Web.Core.csproj": {
+                "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Core\\Web.Core.csproj"
               },
-              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
-                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj"
               },
-              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj": {
-                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj"
+              "D:\\ProjectT4\\WebManageBook\\Web.Integration\\Web.Integration.csproj": {
+                "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Integration\\Web.Integration.csproj"
               }
             }
           }
@@ -49,9 +48,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -94,21 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj": {
+    "D:\\ProjectT4\\WebManageBook\\Web.Core\\Web.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj",
+        "projectUniqueName": "D:\\ProjectT4\\WebManageBook\\Web.Core\\Web.Core.csproj",
         "projectName": "Web.Core",
-        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\obj\\",
+        "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Core\\Web.Core.csproj",
+        "packagesPath": "C:\\Users\\QuangThang\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectT4\\WebManageBook\\Web.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuangThang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,15 +114,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
-                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj"
               }
             }
           }
@@ -137,9 +134,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -170,21 +166,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+    "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj",
+        "projectUniqueName": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj",
         "projectName": "Web.Domain",
-        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\obj\\",
+        "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj",
+        "packagesPath": "C:\\Users\\QuangThang\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuangThang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,7 +188,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -209,9 +204,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -238,21 +232,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj": {
+    "D:\\ProjectT4\\WebManageBook\\Web.Integration\\Web.Integration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj",
+        "projectUniqueName": "D:\\ProjectT4\\WebManageBook\\Web.Integration\\Web.Integration.csproj",
         "projectName": "Web.Integration",
-        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\obj\\",
+        "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Integration\\Web.Integration.csproj",
+        "packagesPath": "C:\\Users\\QuangThang\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectT4\\WebManageBook\\Web.Integration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QuangThang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -260,15 +254,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
-                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "D:\\ProjectT4\\WebManageBook\\Web.Domain\\Web.Domain.csproj"
               }
             }
           }
@@ -281,9 +274,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -314,7 +306,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

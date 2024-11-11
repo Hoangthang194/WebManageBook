@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web.Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08695a1b87ecec3790c2c19dc73c135aaa470912")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb66352050544f2c73fc7af29b9529993d8b252c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web.Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web.Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
