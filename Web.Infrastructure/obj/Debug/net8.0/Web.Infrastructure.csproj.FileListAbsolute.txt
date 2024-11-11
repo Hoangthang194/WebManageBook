@@ -256,3 +256,4 @@ E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Infrastructure\obj\Debug\net8.0\
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.pdb
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.genruntimeconfig.cache
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Infrastructure\obj\Debug\net8.0\ref\Web.Infrastructure.dll
+E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Infrastructure\obj\Debug\net8.0\Web.Infrastructure.sourcelink.json

@@ -55,3 +55,4 @@ E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.ApplicationService\obj\Debug\net
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.ApplicationService\obj\Debug\net8.0\refint\Web.ApplicationService.dll
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.ApplicationService\obj\Debug\net8.0\Web.ApplicationService.pdb
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.ApplicationService\obj\Debug\net8.0\ref\Web.ApplicationService.dll
+E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.ApplicationService\obj\Debug\net8.0\Web.ApplicationService.sourcelink.json
