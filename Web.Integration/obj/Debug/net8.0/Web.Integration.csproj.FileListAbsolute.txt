@@ -43,3 +43,4 @@ E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Integration\obj\Debug\net8.0\Web
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Integration\obj\Debug\net8.0\refint\Web.Integration.dll
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Integration\obj\Debug\net8.0\Web.Integration.pdb
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Integration\obj\Debug\net8.0\ref\Web.Integration.dll
+E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Integration\obj\Debug\net8.0\Web.Integration.sourcelink.json

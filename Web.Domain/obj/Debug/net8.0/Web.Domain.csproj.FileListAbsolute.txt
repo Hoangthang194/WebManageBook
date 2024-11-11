@@ -34,3 +34,4 @@ E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Domain\obj\Debug\net8.0\Web.Doma
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Domain\obj\Debug\net8.0\refint\Web.Domain.dll
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Domain\obj\Debug\net8.0\Web.Domain.pdb
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Domain\obj\Debug\net8.0\ref\Web.Domain.dll
+E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Domain\obj\Debug\net8.0\Web.Domain.sourcelink.json

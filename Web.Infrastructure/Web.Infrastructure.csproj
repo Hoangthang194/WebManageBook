@@ -10,6 +10,7 @@
     <PackageReference Include="Mapster" Version="7.4.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,11 @@
     <ProjectReference Include="..\Web.Core\Web.Core.csproj" />
     <ProjectReference Include="..\Web.Domain\Web.Domain.csproj" />
     <ProjectReference Include="..\Web.Integration\Web.Integration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
 
 </Project>

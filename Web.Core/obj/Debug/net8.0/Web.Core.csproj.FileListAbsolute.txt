@@ -43,3 +43,4 @@ E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Core\obj\Debug\net8.0\Web.Core.d
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Core\obj\Debug\net8.0\refint\Web.Core.dll
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Core\obj\Debug\net8.0\Web.Core.pdb
 E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Core\obj\Debug\net8.0\ref\Web.Core.dll
+E:\Web_n8\Web_N8\WebCore\Web.Infrastructure\Web.Core\obj\Debug\net8.0\Web.Core.sourcelink.json
