@@ -1,0 +1,414 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Infrastructure\\Web.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj",
+        "projectName": "Web.ApplicationService",
+        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj"
+              },
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              },
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj",
+        "projectName": "Web.Core",
+        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj",
+        "projectName": "Web.Domain",
+        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Infrastructure\\Web.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Infrastructure\\Web.Infrastructure.csproj",
+        "projectName": "Web.Infrastructure",
+        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Infrastructure\\Web.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.ApplicationService\\Web.ApplicationService.csproj"
+              },
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Core\\Web.Core.csproj"
+              },
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              },
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj",
+        "projectName": "Web.Integration",
+        "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\Web.Integration.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj": {
+                "projectPath": "E:\\Web_n8\\Web_N8\\WebCore\\Web.Infrastructure\\Web.Domain\\Web.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.7.24407.12/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
