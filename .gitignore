@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+# Bỏ qua thư mục bin và obj
+bin/
+obj/
+
+# Bỏ qua các file cấu hình của Visual Studio
+.vs/
+
+# Bỏ qua file tạm thời
+*.tmp
+=======
 .vs/
 bin/
 obj/
+>>>>>>> 388774ee0be8f5ff81e837c42bb607ad72ff5f61
