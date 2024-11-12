@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Hosting;
 using System.Reflection;
 using Web.Domain;
 using Web.Infrastructure;
@@ -14,6 +14,8 @@ builder.Services.AddService();
 builder.Services.AddServiceOfApplicationService();
 builder.Services.AddServiceOfIntegration();
 builder.Services.AddServiceOfCore();
+
+/*builder.Services.AddScoped<ISessionService>();*/ // đang bị lỗi
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,7 +28,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+// mới thêm
+//app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();

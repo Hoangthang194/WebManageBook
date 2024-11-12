@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace Web.Domain.Login.Param.Query
 {
     public class LoginQueryParam
-    {
-    }
+	{
+		public string? UserEmail { get; set; }
+		public string? UserPassword { get; set; }
+	}
 }
