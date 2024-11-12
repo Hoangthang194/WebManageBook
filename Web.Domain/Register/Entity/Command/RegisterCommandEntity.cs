@@ -15,6 +15,7 @@ namespace Web.Domain.Register.Entity.Command
         public string? UserName { get; set;}
         [Column("UserPassword")]
         public string? Password { get; set; }
+        public string? UserEmail {  get; set; }
         public string? RoleId { get; set; } = "1";
     }
 }

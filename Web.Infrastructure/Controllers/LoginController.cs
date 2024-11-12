@@ -38,19 +38,17 @@ namespace Web.Infrastructure.Controllers
         }
 		//Login
 		[HttpPost]
-		public async Task<IActionResult> Login(LoginModel model)
+		public async Task<IActionResult> Login(LoginModel? model)
 		{
-			if (ModelState.IsValid)
-			{
-				bool isAuthenticated = await this.sessionService.AuthenticateUser(model.UserEmail, model.Password);
-				if (isAuthenticated)
-				{
-					this.sessionService.SetSessionData("userEmail", model.UserEmail);
-					return RedirectToAction("Index", "Home");
-				}
-			}
-			return View(model);
-		}
+            
+		    bool isAuthenticated = await this.sessionService.AuthenticateUser(model.UserEmail, model.Password);
+		    if (isAuthenticated)
+		    {
+		    	this.sessionService.SetSessionData("userEmail", model.UserEmail);
+		    	return RedirectToAction("Index", "Home");
+		    }
+            return RedirectToAction("Index");
+        }
 
 		public IActionResult Logout()
 		{
