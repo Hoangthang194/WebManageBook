@@ -1,0 +1,9 @@
+# Bỏ qua thư mục bin và obj
+bin/
+obj/
+
+# Bỏ qua các file cấu hình của Visual Studio
+.vs/
+
+# Bỏ qua file tạm thời
+*.tmp
