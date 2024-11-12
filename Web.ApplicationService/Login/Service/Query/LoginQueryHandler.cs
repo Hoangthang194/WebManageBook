@@ -1,9 +1,11 @@
+using Mapster;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Web.Domain.Login.Param.Query;
 using Web.Domain.Login.Repository.Query;
 using Web.Integration.Login.Query;
 
@@ -16,9 +18,15 @@ namespace Web.ApplicationService.Login.Service.Query
         {
             this.repository = repository;
         }
-        public Task<LoginQueryResult> Handle(LoginQuery request, CancellationToken cancellationToken)
+        public async Task<LoginQueryResult> Handle(LoginQuery request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
-        }
+			var param = request.Adapt<LoginQueryParam>();
+			var result = await this.repository.GetLoginInformation(param);
+			var response = new LoginQueryResult
+			{
+				LoginEntity = result,
+			};
+			return response;
+		}
     }
 }
