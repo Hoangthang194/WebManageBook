@@ -10,6 +10,14 @@ namespace Web.Infrastructure
             services.AddSingleton<IConfigurationBuilder, ConfigurationBuilder>();
             services.AddSingleton<IDapperContext, DapperContext>();
             services.AddSingleton<IConnectionStringProvider, DbContextProvider>();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian session hết hạn
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true; // Bắt buộc nếu bạn cần session trong môi trường GDPR
+            });
+            services.AddHttpContextAccessor();
+            services.AddScoped<ISessionService, SessionService>();
             return services;
         }
     }

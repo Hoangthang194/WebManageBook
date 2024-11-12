@@ -1,13 +1,12 @@
-using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Web.Integration.Login.Query
+namespace Web.Domain.GetUserById.Param.Query
 {
-    public class LoginQuery: IRequest<LoginQueryResult>
+    public class GetUserByIdQueryParam
     {
     }
 }
