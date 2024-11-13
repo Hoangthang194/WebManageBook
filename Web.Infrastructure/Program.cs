@@ -15,7 +15,6 @@ builder.Services.AddServiceOfApplicationService();
 builder.Services.AddServiceOfIntegration();
 builder.Services.AddServiceOfCore();
 
-/*builder.Services.AddScoped<ISessionService>();*/ // đang bị lỗi
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
