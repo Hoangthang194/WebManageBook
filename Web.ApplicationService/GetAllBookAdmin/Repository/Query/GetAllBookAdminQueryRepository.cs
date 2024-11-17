@@ -1,3 +1,4 @@
+using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,18 @@ namespace Web.ApplicationService.GetAllBookAdmin.Repository.Query
         public GetAllBookAdminQueryRepository(IDapperContext context) : base(context)
         {
             this.context = context;
+        }
+
+        public async Task<List<GetAllBookAdminQueryEntity>> GetAllInforBook()
+        {
+            var sql = @"
+                SELECT *
+                  FROM Book b
+                  INNER JOIN Category c
+                  ON b.CategoryId = c.CategoryId
+            ";
+            var result = await context.Connection.QueryAsync<GetAllBookAdminQueryEntity>(sql);
+            return result.ToList();
         }
     }
 }

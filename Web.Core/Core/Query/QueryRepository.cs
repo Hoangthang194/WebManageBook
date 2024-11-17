@@ -54,7 +54,7 @@ namespace Web.Core.Core.Query
             try
             {
                 string tableName = GetTableName();
-                string query = $"SELECT {GetColumnsAsProperties()} FROM {tableName}";
+                string query = $"SELECT {GetColumnsAsProperties()} FROM {tableName} WHERE IsDeleted = 0";
 
                 result = await _connection.QueryAsync<T>(query);
             }

@@ -10,6 +10,6 @@ namespace Web.Domain.Contact
     {
         public bool IsDeleted { get; set; } = false;
         public DateTime CreateDate { get; set; } = DateTime.UtcNow;
-        public string? CreateBy { get; set; }
+        public string? CreateBy { get; set; } = "Admin";
     }
 }

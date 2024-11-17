@@ -10,5 +10,6 @@ namespace Web.Domain.GetAllBookAdmin.Repository.Query
 {
     public interface IGetAllBookAdminQueryRepository : IQueryRepository<GetAllBookAdminQueryEntity>
     {
+        public Task<List<GetAllBookAdminQueryEntity>> GetAllInforBook();
     }
 }
