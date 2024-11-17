@@ -1,0 +1,108 @@
+﻿@model Web.Infrastructure.Areas.Admin.Models.BookAdminModel
+
+<div class="">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+               
+                <div class="col-sm-6">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                        <li class="breadcrumb-item active">Quản lý sách</li>
+                    </ol>
+                </div>
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Danh sách thông tin</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Mã sách</th>
+                                        <th>Tên sách</th>
+                                        <th>Giá sách</th>
+                                        <th>Danh mục</th>
+                                        <th class="text-center">Thao tác</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach(var item in Model.Books)
+                                    {
+                                        <tr>
+                                            <td>@item.BookId.Substring(0,8)</td>
+                                            <td>
+                                                @item.BookName
+                                            </td>
+                                            <td>@item.PriceNew.ToString("N0")</td>
+                                            <td>@item.CategoryName</td>
+                                            <td>
+                                                <div class="tools text-center">
+                                                    <a href="@Url.Action("Update", "BookAdmin", new{BookId = item.BookId})"><i class="fas fa-edit color-primary"></i></a>
+                                                    <a href="@Url.Action("Delete", "BookAdmin", new{BookId = item.BookId})"><i class="fas fa-trash color-red"></i></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                   
+                                </tbody>
+                                <tfoot>
+                                   @*  <tr>
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                        <th>Engine version</th>
+                                        <th>CSS grade</th>
+                                    </tr> *@
+
+                                </tfoot>
+                            </table>
+                            <div class="card-footer clearfix pl-0">
+                                <a href="@Url.Action("CreateBook", "BookAdmin")" type="button" class="btn btn-primary float-left "><i class="fas fa-plus"></i> Thêm mới</a>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<script src="~/TemplateAdmin/plugins/jquery/jquery.min.js"></script>
+
+<script>
+    $(function () {
+      $("#example1").DataTable({
+        "responsive": true, "lengthChange": false, "autoWidth": false,
+        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+      $('#example2').DataTable({
+        "paging": true,
+        "lengthChange": false,
+        "searching": false,
+        "ordering": true, 
+        "info": true,
+        "autoWidth": false,
+        "responsive": true,
+      });
+    });
+</script>

@@ -66,7 +66,7 @@ namespace Web.Core.Core.Command
                     var columnAttribute = property.GetCustomAttribute<ColumnAttribute>();
 
                     string propertyName = property.Name;
-                    string columnName = columnAttribute?.Name ?? "";
+                    string columnName = columnAttribute?.Name ?? propertyName;
 
                     query.Append($"{columnName} = @{propertyName},");
                 }

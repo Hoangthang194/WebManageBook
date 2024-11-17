@@ -1,0 +1,48 @@
+﻿@model Web.Infrastructure.Areas.Admin.Models.CategoryAdminModel
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+
+            <div class="col-sm-6">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">Cập nhật danh mục</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card card-primary w-100">
+                <div class="card-header">
+                    <h3 class="card-title">Cập nhật danh mục</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                @using (Html.BeginForm("Update", "Category", FormMethod.Post, new { @id = "loginForm", area = "Admin" })) // Tạo form với action trỏ tới phương thức "Login" trong controller "Account"
+                {
+                    @Html.HiddenFor(x=>x.CategoryId)
+                    <div class="card-body">
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Tên danh mục:</label>
+                            @Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control", placeholder = "Nhập tên danh mục", required = "required" })
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Cập nhật</button>
+                    </div>
+                }
+            </div>
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>

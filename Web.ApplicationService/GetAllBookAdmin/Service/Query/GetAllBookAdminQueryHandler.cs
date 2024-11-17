@@ -18,7 +18,7 @@ namespace Web.ApplicationService.GetAllBookAdmin.Service.Query
         }
         public async Task<GetAllBookAdminQueryResult> Handle(GetAllBookAdminQuery request, CancellationToken cancellationToken)
         {
-            var result = await repository.GetAll();
+            var result = await repository.GetAllInforBook();
 
             return new GetAllBookAdminQueryResult
             {
