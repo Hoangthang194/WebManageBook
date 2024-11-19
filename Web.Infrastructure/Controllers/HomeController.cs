@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Web.Infrastructure.Models.Detail;
 using Web.Integration.GetAllBook.Query;
 namespace Web.Infrastructure.Controllers
 {
@@ -21,6 +22,6 @@ namespace Web.Infrastructure.Controllers
             return View(result.Books);
         }
 
-
+        
     }
 }

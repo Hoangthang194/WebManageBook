@@ -23,14 +23,7 @@ namespace Web.ApplicationService.GetAllBook.Repository.Query
         {
             var sql = @"
             SELECT
-            BookId,
-            BookName,
-            BookSubDes,
-            BookDes,
-            PriceOld,
-            PriceNew,
-            PercentVourcher,
-            BookBrand
+            *
             FROM Book
             WHERE IsDeleted=0
             ";

@@ -51,8 +51,8 @@
                                             <td>@item.CategoryName</td>
                                             <td>
                                                 <div class="tools text-center">
-                                                    <a href="@Url.Action("Update", "BookAdmin", new{BookId = item.BookId})"><i class="fas fa-edit color-primary"></i></a>
-                                                    <a href="@Url.Action("Delete", "BookAdmin", new{BookId = item.BookId})"><i class="fas fa-trash color-red"></i></a>
+                                                    <a href="@Url.Action("Update", "BookAdmin", new{bookId = item.BookId})"><i class="fas fa-edit color-primary"></i></a>
+                                                    <a href="@Url.Action("Delete", "BookAdmin", new{bookId = item.BookId})"><i class="fas fa-trash color-red"></i></a>
                                                 </div>
                                             </td>
                                         </tr>
