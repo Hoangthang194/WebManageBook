@@ -26,13 +26,16 @@ namespace Web.Infrastructure.Controllers
         {
             // Xử lý logic
             // + Controller _> service
-            var command = model.Adapt<RegisterCommand>();
-            var result =await mediator.Send(command);
-            if (result.Status)
+            if (ModelState.IsValid)
             {
-				this.sessionService.SetSessionData("userEmail", model.UserEmail);
-				this.sessionService.SetSessionData("userId", result.UserId);
-				return RedirectToAction("Index", "Home");
+                var command = model.Adapt<RegisterCommand>();
+                var result = await mediator.Send(command);
+                if (result.Status)
+                {
+                    this.sessionService.SetSessionData("userEmail", model.UserEmail);
+                    this.sessionService.SetSessionData("userId", result.UserId);
+                    return RedirectToAction("Index", "Home");
+                }
             }
             return View(model);
         }
@@ -40,13 +43,14 @@ namespace Web.Infrastructure.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Login(LoginModel? model)
 		{
-            
-		    bool isAuthenticated = await this.sessionService.AuthenticateUser(model.UserEmail, model.Password);
-		    if (isAuthenticated)
-		    {
-		    	this.sessionService.SetSessionData("userEmail", model.UserEmail);
-		    	return RedirectToAction("Index", "Home");
-		    }
+            if (ModelState.IsValid) {
+                bool isAuthenticated = await this.sessionService.AuthenticateUser(model.UserEmailLogin, model.PasswordLogin);
+                if (isAuthenticated)
+                {
+                    this.sessionService.SetSessionData("userEmail", model.UserEmail);
+                    return RedirectToAction("Index", "Home");
+                }
+            }
             return RedirectToAction("Index");
         }
 
